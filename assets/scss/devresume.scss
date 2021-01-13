@@ -204,9 +204,13 @@ a.resume-link {
     }
 }
 
+@media print {
+	.footer {
+		display: none;
+	}
 
-
-
-
-
-
+	.resume-wrapper {
+		box-shadow: none !important;
+		border: none;
+	}
+}
